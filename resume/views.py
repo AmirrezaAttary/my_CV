@@ -15,3 +15,6 @@ def view_resume(request):
 
 def view_contact(request):
     return render(request, 'resume/contact.html',about)
+
+def view_project(request):
+    return render(request, 'resume/portfolio.html')
