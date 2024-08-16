@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <main class="main">
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>A little information about my resume</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>AmirReza Attary</h4>
+              <p><em>I am a programmer with several programming languages ​​for more than 3 years.</em></p>
+              <ul>
+                <li>{{city}}</li>
+                <li>{{phone}}</li>
+                <li>{{email}}</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Diploma in computer science</h4>
+              <h5>2020 - 2023</h5>
+              <p><em>Kamal al-Mulk Conservatory</em></p>
+              <p>I graduated from Kamal-ul-Mulk Conservatory in the field of computer science.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Computer cycle</h4>
+              <h5>2010 - 2019</h5>
+              <p><em>Farhangian Sabzevar School</em></p>
+              <p>I took my course in 9 years without renewing or dropping.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Introductory Django expert</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Maktabkhone</em></p>
+              <ul>
+                <li>Developing and maintaining web applications</li>
+                <li>Collaborating with cross-functional teams</li>
+                <li>Implementing responsive design and ensuring cross-browser compatibility</li>
+                <li>Participating in code reviews</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Advanced Python</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>Maktabkhone</em></p>
+              <ul>
+                <li>Web scripting with Python</li>
+                <li>Artificial intelligence with Python</li>
+                <li>Telegram bot with Python</li>
+                <li>Backend site with introductory Python</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+  </main>
+
+{% endblock %}
